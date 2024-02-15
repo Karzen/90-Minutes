@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box"
+    android:layout_margin="15dp"
+    android:paddingBottom="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="317dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:inputType="time"
+        android:textAlignment="center"
+        android:textColor="#A0C1B8"
+        android:textSize="18sp" />
+
+</RelativeLayout>
